@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Configuração do VSCode e PyCharm
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos de log
+*.log
+
+# Arquivos de cache do Streamlit
+.streamlit/cache/
+.streamlit/config.toml
+
+# Dados do ChromaDB (banco vetorial)
+vector_db/
+# (ou o caminho real que você configurou para a persistência do ChromaDB)
+
+# Base de conhecimento local (PDFs dos usuários)
+knowledge_base/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de saída e notebooks temporários
+*.ipynb_checkpoints
+
+# Modelos baixados manualmente (caso armazene localmente)
+models/
+```
+
+> **Notas:**
+> - Se quiser versionar alguns PDFs de exemplo, crie uma subpasta como `knowledge_base_examples/` e não ignore ela.
+> - Se o caminho do banco vetorial for diferente de `vector_db/`, ajuste no `.gitignore`.
+> - Nunca faça commit do seu `.env` ou de arquivos com segredos.
