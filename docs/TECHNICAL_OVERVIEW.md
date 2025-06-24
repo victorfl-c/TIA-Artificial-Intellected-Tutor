@@ -143,4 +143,4 @@ O sistema é composto por um frontend interativo, um backend que orquestra a ló
 
 ## 📄 Licença
 
-Este projeto está licenciado sob os termos da Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob os termos da Licença MIT. Consulte o arquivo [LICENSE]([LICENSE](https://github.com/victorfl-c/TIA-Artificial-Intellected-Tutor/blob/main/LICENSE)) para mais detalhes.
