@@ -4,7 +4,7 @@
 
 TIA (Tutor de Inteligência Artificial) é um sistema de apoio ao estudo baseado em IA, capaz de responder perguntas dos estudantes utilizando o conteúdo de PDFs enviados pelos próprios usuários. O sistema combina técnicas de RAG (Retrieval-Augmented Generation), mantendo flexibilidade para operar totalmente offline (usando modelos locais via Ollama) ou online (usando o Google Gemini se disponível).
 
-> :bulb: **Nota pedagógica:**  
+> 💡 **Nota pedagógica:**  
 > O TIA foi projetado para **não dar respostas diretas**. Seu objetivo é atuar como um tutor, promovendo a reflexão e a construção autônoma do conhecimento pelo estudante através de exemplos, analogias e perguntas orientadoras.
 
 ---
@@ -140,3 +140,7 @@ O sistema é composto por um frontend interativo, um backend que orquestra a ló
 - Se desejar autenticação, logging avançado, ou persistência de histórico, adapte os módulos correspondentes.
 
 ---
+
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
